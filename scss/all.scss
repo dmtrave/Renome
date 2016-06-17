@@ -45,3 +45,56 @@ header {
 
 /*---------------Main Slider--------------------*/
 
+
+.bx-wrapper {
+      margin-bottom: 0px;
+      .bx-viewport {
+         border: none;
+         left: 0px;
+      }
+      .bx-pager {
+        display: none;
+      }
+
+    }
+.bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  top: 83%;
+  margin-top: -16px;
+  outline: 0;
+  width: 55px;
+  height: 55px;
+  text-indent: -9999px;
+  z-index: 9999;
+}
+.bx-wrapper .bx-prev {
+  left: 222px;
+  background: url(../img/SliderArrowLeft.png) no-repeat;
+}
+
+.bx-wrapper .bx-next {
+  left: 293px;
+  background: url(../img/SliderArrowRight.png) no-repeat;
+}
+.bx-wrapper .bx-next:hover {
+  background-position: 0;
+}
+
+.TitleBox {
+  position: absolute;
+  right: 12%;
+  top: 83%;
+   h1.TitleMain {
+     margin-bottom: 5px;
+       font-size: 50px;
+       color: #fff;
+       font-family: "AxisRegular";
+
+
+   }
+  span.SubTitleMain {
+    font-size: 30px;
+    color: #985e5b;
+    font-family: "MontserratBold";
+  }
+}
