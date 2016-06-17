@@ -1,7 +1,47 @@
 @import "core.scss";
 
-.nopadding {
-   padding: $nopadding;
-   margin: $nopadding;
+.nopaddingmargin {
+   padding: $nopaddingmargin;
+   margin: $nopaddingmargin;
 }
-/*---------------Section HeaderKpp--------------------*/
+
+.nopadding {
+  padding: $nopadding;
+}
+/*--------------- Header --------------------*/
+header {
+   .row {
+      .RenomeNavBar{
+         margin-bottom: 0px;
+         border: none;
+         background-color: #fff;
+         padding: 25px 0px;
+
+        div.navbar-header {
+          a.navbar-brand{
+            span#LogoRenome {
+              font-size: $logotext;
+              font-family: "Pacifico";
+              text-decoration: none;
+              color: #000;
+            }
+          }
+        }
+        }
+
+         #NavBarMenu li a {
+               font-size: 12px;
+               text-transform: uppercase;
+               color: #000;
+               font-family: "MontserratBold";
+               text-decoration: none;
+
+           &:hover{
+             color: #985e5b;
+           }
+           }
+   }
+}
+
+/*---------------Main Slider--------------------*/
+

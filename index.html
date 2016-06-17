@@ -1,16 +1,65 @@
 <!doctype html>
-<html lang="ru">
+<html lang="eng">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/slider.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="js/jquery.bxslider.css">
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" type="text/css" href="scss/all.css">
     <title>Renome</title>
 </head>
 <body>
+<header>
+    <div class="container wrapper">
+        <div class="row nopaddingmargin">
+            <nav class="navbar navbar-default RenomeNavBar">
+                <div class="container-fluid">
 
+                    <!-- Brand and toggle get grouped for better mobile display -->
+
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    <div class="col-lg-2 col-md-2 nopadding">
+                        <a class="navbar-brand" href="#"><span id="LogoRenome">Renome</span></a>
+                    </div>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="col-lg-8 col-md-10 col-lg-offset-2 nopadding">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav" id="NavBarMenu">
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">menu</a></li>
+                            <li><a href="#">reservations</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">shop</a></li>
+                            <li><a href="#">contact</a></li>
+                            <li><a href="#">search</a></li>
+                            <li><a href="#">cart</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+    </div>
+</header>
+<section>
+    <ul class="bxslider">
+        <li><img src="img/main_slide1.jpg"></li>
+        <li><img src="img/main_slide2.jpg"></li>
+        <li><img src="img/main_slide3.jpg"></li>
+    </ul>
+
+</section>
 </body>
 </html>

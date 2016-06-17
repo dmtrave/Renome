@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "AxisExtrabold";
+    src: url("../fonts/AxisExtrabold.otf");
+}
+
+@font-face {
+    font-family: "AxisRegular";
+    src: url("../fonts/axisregular.otf");
+}
+
+@font-face {
+    font-family: "MontserratBold";
+    src: url("../fonts/Montserrat-Bold.otf");
+}
+
+@font-face {
+    font-family: "MontserratRegular";
+    src: url("../fonts/Montserrat-Regular.otf");
+}
+
+@font-face {
+    font-family: "Pacifico";
+    src: url("../fonts/Pacifico.otf");
+}
+@font-face {
+    font-family: "Streetwear";
+    src: url("../fonts/Streetwear.otf");
+}
