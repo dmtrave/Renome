@@ -24,6 +24,14 @@ header .row #NavBarMenu li a {
   text-decoration: none; }
   header .row #NavBarMenu li a:hover {
     color: #985e5b; }
+header .row ul.dropdown-menu {
+  border: none;
+  border-radius: 0px;
+  min-width: 0px;
+  box-shadow: none;
+  margin-top: 22px; }
+  header .row ul.dropdown-menu li a {
+    color: #1e2633; }
 
 /*---------------Main Slider--------------------*/
 .bx-wrapper {
@@ -68,5 +76,35 @@ header .row #NavBarMenu li a {
     font-size: 30px;
     color: #985e5b;
     font-family: "MontserratBold"; }
+
+/*---------------Section About--------------------*/
+section.SectionAbout .container .row {
+  padding-bottom: 8%; }
+  section.SectionAbout .container .row .LeftContentAbout {
+    padding-top: 8%;
+    padding-left: 6%; }
+  section.SectionAbout .container .row .RightContentAbout {
+    padding-top: 10%;
+    padding-left: 6%; }
+    section.SectionAbout .container .row .RightContentAbout h2 {
+      font-size: 50px;
+      color: #1e2633;
+      font-family: "AxisRegular";
+      margin-bottom: 5px; }
+    section.SectionAbout .container .row .RightContentAbout span {
+      font-size: 12px;
+      color: #985e5b;
+      font-family: "MontserratBold"; }
+    section.SectionAbout .container .row .RightContentAbout p {
+      font-size: 12px;
+      color: #404040;
+      font-family: "MontserratRegular";
+      padding-top: 20px;
+      line-height: 30px;
+      letter-spacing: 1.5px; }
+    section.SectionAbout .container .row .RightContentAbout p.ContentAbout3 {
+      font-size: 30px;
+      font-family: "MontserratBold";
+      padding-top: 0px; }
 
 /*# sourceMappingURL=all.css.map */
