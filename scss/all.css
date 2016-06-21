@@ -53,11 +53,11 @@ header .row ul.dropdown-menu {
   z-index: 9999; }
 
 .bx-wrapper .bx-prev {
-  left: 222px;
+  left: 202px;
   background: url(../img/SliderArrowLeft.png) no-repeat; }
 
 .bx-wrapper .bx-next {
-  left: 293px;
+  left: 272px;
   background: url(../img/SliderArrowRight.png) no-repeat; }
 
 .bx-wrapper .bx-next:hover {
@@ -82,19 +82,22 @@ section.SectionAbout .container .row {
   padding-bottom: 8%; }
   section.SectionAbout .container .row .LeftContentAbout {
     padding-top: 8%;
-    padding-left: 6%; }
+    padding-left: 13%; }
   section.SectionAbout .container .row .RightContentAbout {
     padding-top: 10%;
-    padding-left: 6%; }
+    padding-left: 15%; }
     section.SectionAbout .container .row .RightContentAbout h2 {
       font-size: 50px;
       color: #1e2633;
       font-family: "AxisRegular";
-      margin-bottom: 5px; }
+      margin-bottom: 5px;
+      letter-spacing: 10px; }
     section.SectionAbout .container .row .RightContentAbout span {
       font-size: 12px;
       color: #985e5b;
-      font-family: "MontserratBold"; }
+      font-family: "MontserratBold";
+      letter-spacing: 1.5px;
+      text-transform: uppercase; }
     section.SectionAbout .container .row .RightContentAbout p {
       font-size: 12px;
       color: #404040;
@@ -106,5 +109,355 @@ section.SectionAbout .container .row {
       font-size: 30px;
       font-family: "MontserratBold";
       padding-top: 0px; }
+
+/*---------------Section Lunch--------------------*/
+section.SectionLunch {
+  background: #f7f7f7; }
+  section.SectionLunch .container .row {
+    padding-bottom: 8%; }
+    section.SectionLunch .container .row .LeftContentLunch {
+      padding-top: 23%;
+      text-align: center;
+      padding-left: 9%; }
+      section.SectionLunch .container .row .LeftContentLunch h2 {
+        font-size: 50px;
+        color: #1e2633;
+        font-family: "AxisRegular";
+        margin-bottom: 5px;
+        letter-spacing: 10px; }
+      section.SectionLunch .container .row .LeftContentLunch span {
+        font-size: 12px;
+        color: #985e5b;
+        font-family: "MontserratBold";
+        letter-spacing: 1.5px;
+        text-transform: uppercase; }
+    section.SectionLunch .container .row .RightContentLunch {
+      padding-top: 10%; }
+
+/*---------------Section Menu--------------------*/
+section.SectionMenu .container .row {
+  padding-bottom: 8%; }
+  section.SectionMenu .container .row .RightContentMenu {
+    padding-top: 8%;
+    padding-left: 6%; }
+  section.SectionMenu .container .row .LeftContentMenu {
+    padding-top: 10%;
+    text-align: right;
+    padding-right: 2%; }
+    section.SectionMenu .container .row .LeftContentMenu h2 {
+      font-size: 50px;
+      color: #1e2633;
+      font-family: "AxisRegular";
+      margin-bottom: 5px;
+      letter-spacing: 10px; }
+    section.SectionMenu .container .row .LeftContentMenu span {
+      font-size: 12px;
+      color: #985e5b;
+      font-family: "MontserratBold";
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding-right: 6px; }
+    section.SectionMenu .container .row .LeftContentMenu p {
+      font-size: 12px;
+      color: #404040;
+      font-family: "MontserratRegular";
+      padding-top: 20px;
+      line-height: 30px;
+      letter-spacing: 1.5px;
+      padding-right: 6px; }
+    section.SectionMenu .container .row .LeftContentMenu p.ContentAbout3 {
+      font-size: 30px;
+      font-family: "MontserratBold";
+      padding-top: 0px;
+      padding-right: 6px; }
+
+/*---------------Section Romantic--------------------*/
+img.RomanticImg {
+  position: absolute;
+  margin-top: 40%;
+  left: 19%; }
+
+section.SectionRomantic {
+  background: #f7f7f7; }
+  section.SectionRomantic .container .row {
+    padding-bottom: 15%; }
+    section.SectionRomantic .container .row .RightContentRomantic {
+      padding-top: 18%;
+      padding-left: 10%;
+      text-align: center; }
+      section.SectionRomantic .container .row .RightContentRomantic span {
+        font-size: 25px;
+        color: #1e2633;
+        font-family: "MontserratRegular";
+        line-height: 38px;
+        letter-spacing: 6px; }
+      section.SectionRomantic .container .row .RightContentRomantic p {
+        font-size: 12px;
+        color: #1e2633;
+        font-family: "AxisRegular";
+        padding-top: 20px;
+        line-height: 30px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase; }
+
+/*---------------Section Reservation--------------------*/
+section.SectionReservation .container .row {
+  padding-bottom: 8%; }
+  section.SectionReservation .container .row .LeftContentReservation {
+    padding-top: 8%;
+    padding-left: 13%; }
+  section.SectionReservation .container .row .RightContentReservation {
+    padding-top: 10%;
+    padding-left: 10%; }
+    section.SectionReservation .container .row .RightContentReservation h2 {
+      font-size: 50px;
+      color: #1e2633;
+      font-family: "AxisRegular";
+      margin-bottom: 5px;
+      letter-spacing: 12px; }
+    section.SectionReservation .container .row .RightContentReservation span {
+      font-size: 12px;
+      color: #985e5b;
+      font-family: "MontserratBold";
+      letter-spacing: 3px; }
+    section.SectionReservation .container .row .RightContentReservation p {
+      font-size: 12px;
+      color: #404040;
+      font-family: "MontserratRegular";
+      padding-top: 20px;
+      line-height: 30px;
+      letter-spacing: 2.2px; }
+    section.SectionReservation .container .row .RightContentReservation p.ContentAbout3 {
+      font-size: 30px;
+      font-family: "MontserratBold";
+      padding-top: 0px; }
+
+/*---------------Section OurService--------------------*/
+section.SectionOurService .container .row {
+  padding-bottom: 8%;
+  text-align: center; }
+  section.SectionOurService .container .row h2 {
+    font-size: 50px;
+    color: #1e2633;
+    font-family: "AxisRegular";
+    margin-bottom: 5px;
+    letter-spacing: 12px; }
+  section.SectionOurService .container .row span {
+    font-size: 12px;
+    color: #985e5b;
+    font-family: "MontserratBold";
+    letter-spacing: 3px;
+    text-transform: uppercase; }
+
+/*---------------Section OurService--------------------*/
+section.SectionOurServiceSteps {
+  background: #f7f7f7; }
+  section.SectionOurServiceSteps .container .row .ContentOurServiceSteps {
+    padding-top: 8%;
+    padding-bottom: 8%;
+    text-align: center; }
+    section.SectionOurServiceSteps .container .row .ContentOurServiceSteps span {
+      font-size: 20px;
+      color: #1e2633;
+      font-family: "MontserratRegular";
+      letter-spacing: 2px; }
+  section.SectionOurServiceSteps .container .row .ContentOurServiceStepsBorder {
+    padding-top: 8%;
+    padding-bottom: 8%;
+    text-align: center;
+    border-right: 1px solid #d9d9d9;
+    border-left: 1px solid #d9d9d9; }
+    section.SectionOurServiceSteps .container .row .ContentOurServiceStepsBorder span {
+      font-size: 20px;
+      color: #1e2633;
+      font-family: "MontserratRegular";
+      letter-spacing: 2px; }
+
+/*---------------Section OurService--------------------*/
+section.SectionOrderNow {
+  background: url("../img/img_order_now.jpg") no-repeat;
+  background-size: cover; }
+  section.SectionOrderNow .container .row {
+    padding-top: 8%;
+    padding-bottom: 8%;
+    text-align: center; }
+    section.SectionOrderNow .container .row .OrderNowContent a {
+      padding: 20px 42px;
+      background: #1e2633;
+      font-size: 11px;
+      color: #fff;
+      font-family: "MontserratBold";
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-decoration: none; }
+      section.SectionOrderNow .container .row .OrderNowContent a:hover {
+        background: #985e5b; }
+
+/*---------------Section Blog--------------------*/
+section.SectionBlog .container .row {
+  padding-top: 8%;
+  padding-bottom: 5%;
+  text-align: center; }
+  section.SectionBlog .container .row h2 {
+    font-size: 50px;
+    color: #1e2633;
+    font-family: "AxisRegular";
+    margin-bottom: 10px;
+    letter-spacing: 12px; }
+  section.SectionBlog .container .row span {
+    font-size: 12px;
+    color: #985e5b;
+    font-family: "MontserratBold";
+    letter-spacing: 3px;
+    text-transform: uppercase; }
+
+/*---------------Section BlogContent--------------------*/
+section.SectionBlogContent .container .row {
+  padding-bottom: 8%;
+  text-align: center; }
+  section.SectionBlogContent .container .row .BlogContent1 {
+    background: url("../img/img_blog1.jpg") no-repeat;
+    width: 326px;
+    height: 326px;
+    padding-top: 94px;
+    margin-left: 13px; }
+    section.SectionBlogContent .container .row .BlogContent1 a {
+      text-decoration: none; }
+      section.SectionBlogContent .container .row .BlogContent1 a .BlogDate {
+        font-size: 14px;
+        color: #dcdee0;
+        font-family: "MontserratBold";
+        letter-spacing: 1px; }
+      section.SectionBlogContent .container .row .BlogContent1 a .BlogTextUp {
+        font-size: 12px;
+        color: #000;
+        font-family: "AxisRegular";
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding-top: 54px; }
+      section.SectionBlogContent .container .row .BlogContent1 a .BlogTextDown {
+        font-size: 30px;
+        font-family: "MontserratBold";
+        color: #000; }
+        section.SectionBlogContent .container .row .BlogContent1 a .BlogTextDown:hover {
+          color: #985e5b; }
+  section.SectionBlogContent .container .row .BlogContent2 {
+    background: url("../img/img_blog2.jpg") no-repeat;
+    width: 326px;
+    height: 326px;
+    padding-top: 94px;
+    margin-left: 74px; }
+    section.SectionBlogContent .container .row .BlogContent2 a {
+      text-decoration: none; }
+      section.SectionBlogContent .container .row .BlogContent2 a .BlogDate {
+        font-size: 14px;
+        color: #dcdee0;
+        font-family: "MontserratBold";
+        letter-spacing: 1px; }
+      section.SectionBlogContent .container .row .BlogContent2 a .BlogTextUp {
+        font-size: 12px;
+        color: #000;
+        font-family: "AxisRegular";
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding-top: 28px;
+        line-height: 20px; }
+      section.SectionBlogContent .container .row .BlogContent2 a .BlogTextDown {
+        font-size: 30px;
+        font-family: "MontserratBold";
+        color: #000; }
+        section.SectionBlogContent .container .row .BlogContent2 a .BlogTextDown:hover {
+          color: #985e5b; }
+  section.SectionBlogContent .container .row .BlogContent3 {
+    background: url("../img/img_blog3.jpg") no-repeat;
+    width: 326px;
+    height: 326px;
+    padding-top: 94px;
+    margin-left: 74px; }
+    section.SectionBlogContent .container .row .BlogContent3 a {
+      text-decoration: none; }
+      section.SectionBlogContent .container .row .BlogContent3 a .BlogDate {
+        font-size: 14px;
+        color: #dcdee0;
+        font-family: "MontserratBold";
+        letter-spacing: 1px; }
+      section.SectionBlogContent .container .row .BlogContent3 a .BlogTextUp {
+        font-size: 12px;
+        color: #000;
+        font-family: "AxisRegular";
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding-top: 54px; }
+      section.SectionBlogContent .container .row .BlogContent3 a .BlogTextDown {
+        font-size: 30px;
+        font-family: "MontserratBold";
+        color: #000; }
+        section.SectionBlogContent .container .row .BlogContent3 a .BlogTextDown:hover {
+          color: #985e5b; }
+
+/*---------------Section Contact--------------------*/
+section.SectionContact .container .row {
+  padding-bottom: 8%; }
+  section.SectionContact .container .row .RightContentContact {
+    padding-top: 8%;
+    padding-left: 6%; }
+  section.SectionContact .container .row .LeftContentContact {
+    padding-top: 10%;
+    text-align: right;
+    padding-right: 2%; }
+    section.SectionContact .container .row .LeftContentContact h2 {
+      font-size: 50px;
+      color: #1e2633;
+      font-family: "AxisRegular";
+      margin-bottom: 5px;
+      letter-spacing: 10px; }
+    section.SectionContact .container .row .LeftContentContact span {
+      font-size: 12px;
+      color: #985e5b;
+      font-family: "MontserratBold";
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding-right: 6px; }
+    section.SectionContact .container .row .LeftContentContact p {
+      font-size: 12px;
+      color: #404040;
+      font-family: "MontserratRegular";
+      padding-top: 20px;
+      line-height: 30px;
+      letter-spacing: 1.5px;
+      padding-right: 6px; }
+    section.SectionContact .container .row .LeftContentContact p.ContentAbout3 {
+      font-size: 30px;
+      font-family: "MontserratBold";
+      padding-top: 0px;
+      padding-right: 6px; }
+
+/*---------------Section Footer--------------------*/
+footer {
+  background: #f7f7f7; }
+  footer .container .row {
+    padding-top: 3%;
+    padding-bottom: 3%; }
+    footer .container .row .FooterContent1 .LogoRenome {
+      font-size: 25px;
+      font-family: "Pacifico";
+      text-decoration: none;
+      color: #000; }
+    footer .container .row .FooterContent2 {
+      padding-top: 13px; }
+      footer .container .row .FooterContent2 .Copyrighting {
+        font-size: 12px;
+        font-family: "AxisRegular";
+        color: #1e2633;
+        text-transform: uppercase;
+        letter-spacing: 1.5px; }
+    footer .container .row .FooterContent3 {
+      padding-top: 12px; }
+      footer .container .row .FooterContent3 .SocialFooter {
+        font-size: 12px;
+        font-family: "MontserratBold";
+        color: #1e2633;
+        text-transform: uppercase;
+        padding-right: 10px; }
 
 /*# sourceMappingURL=all.css.map */
