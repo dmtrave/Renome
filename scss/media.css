@@ -10,26 +10,195 @@
 
 /*---------------Main Slider--------------------*/
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1280px) {
+/* Medium devices (desktops, 1025px and up) */
+@media (min-width: 1025px) and (max-width: 1280px) {
 
     .TitleBox {
-  position: absolute;
-  right: 8%;
-  top: 75%;
-   h1.TitleMain {
-     margin-bottom: 5px;
-       font-size: 50px;
-       color: #fff;
-       font-family: "AxisRegular";
+        position: absolute;
+        right: 15%;
+        top: 72%; }
 
-
-   }
-  span.SubTitleMain {
-    font-size: 30px;
-    color: #985e5b;
-    font-family: "MontserratBold";
-  }
 }
 
+/* Medium devices (desktops, 1024px and up) */
+@media (min-width: 992px) and (max-width: 1024px) {
+
+    .TitleBox {
+        position: absolute;
+        right: 15%;
+        top: 62%;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .TitleBox {
+        position: absolute;
+        right: 5%;
+        top: 72%;
+    }
+    h1.TitleMain {
+        margin-bottom: 5px;
+        font-size: 28px;
+        color: #fff;
+        font-family: "AxisRegular";
+
+
+    }
+    span.SubTitleMain {
+        font-size: 22px;
+        color: #985e5b;
+        font-family: "MontserratBold";
+    }
+}
+
+
+
+/* Small devices (tablets, 480px and up) */
+@media (min-width: 480px) and (max-width: 767px) {
+
+    .TitleBox {
+        position: absolute;
+        left: 52px;
+        top: 25%; }
+    .TitleBox h1.TitleMain {
+        margin-bottom: 5px;
+        font-size: 35px;
+        color: #fff;
+        font-family: "AxisRegular";
+    }
+    .TitleBox span.SubTitleMain {
+        font-size: 28px;
+        color: #985e5b;
+        font-family: "MontserratBold";
+    }
+
+    .bx-wrapper .bx-prev {
+        left: 52px;
+        background: url(../img/SliderArrowLeft.png) no-repeat;
+    }
+
+    .bx-wrapper .bx-next {
+        left: 122px;
+        background: url(../img/SliderArrowRight.png) no-repeat;
+    }
+
+}
+
+
+
+/* Small devices (tablets, 480px and up) */
+@media (min-width: 300px) and (max-width: 479px) {
+
+    .TitleBox {
+        position: absolute;
+        left: 52px;
+        top: 19%; }
+    .TitleBox h1.TitleMain {
+        margin-bottom: 5px;
+        font-size: 24px;
+        color: #fff;
+        font-family: "AxisRegular";
+    }
+    .TitleBox span.SubTitleMain {
+        font-size: 18px;
+        color: #985e5b;
+        font-family: "MontserratBold";
+    }
+    .bx-wrapper .bx-prev {
+        left: 52px;
+        background: url(../img/SliderArrowLeft.png) no-repeat;
+    }
+
+    .bx-wrapper .bx-next {
+        left: 122px;
+        background: url(../img/SliderArrowRight.png) no-repeat;
+    }
+}
+/*---------------Section OurService--------------------*/
+@media (min-width: 300px) and (max-width: 768px) {
+    section.SectionOurServiceSteps .container .row .ContentOurServiceStepsBorder {
+        padding-top: 8%;
+        padding-bottom: 8%;
+        text-align: center;
+        border-top: 1px solid #d9d9d9;
+        border-bottom: 1px solid #d9d9d9;
+        border-right: none;
+        border-left: none;
+    }
+
+}
+
+/*---------------Section BlogContent md--------------------*/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    section.SectionBlogContent .container .row .BlogContent1 {
+        background: url("../img/img_blog1.jpg") no-repeat;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+        padding-top: 94px;
+        margin-left: 20px; }
+
+    section.SectionBlogContent .container .row .BlogContent2 {
+        background: url("../img/img_blog2.jpg") no-repeat;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+        padding-top: 94px;
+        margin-left: 1%; }
+
+    section.SectionBlogContent .container .row .BlogContent3 {
+        background: url("../img/img_blog3.jpg") no-repeat;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+        padding-top: 94px;
+        margin-left: 1%; }
+}
+
+/*---------------Section BlogContent sm--------------------*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    section.SectionBlogContent .container .row .BlogContent1 {
+        margin-top: 3%;
+        margin-left: 27%; }
+
+    section.SectionBlogContent .container .row .BlogContent2 {
+        margin-top: 3%;
+        margin-left: 27%; }
+
+    section.SectionBlogContent .container .row .BlogContent3 {
+        margin-top: 3%;
+        margin-left: 27%; }
+}
+/*---------------Section BlogContent xs--------------------*/
+@media (min-width: 300px) and (max-width: 767px) {
+    section.SectionBlogContent .container .row .BlogContent1 {
+        margin-top: 3%;
+        margin-left: 0px;
+
+    }
+
+    section.SectionBlogContent .container .row .BlogContent2 {
+        margin-top: 3%;
+        margin-left: 0px;
+
+    }
+
+    section.SectionBlogContent .container .row .BlogContent3 {
+        margin-top: 3%;
+        margin-left: 0px;
+
+    }
+}
+/*---------------Section Reservation--------------------*/
+@media (min-width: 300px) and (max-width: 1064px) {
+    section.SectionReservation .container .row .RightContentReservation h2 {
+        font-size: 50px;
+        color: #1e2633;
+        font-family: "AxisRegular";
+        margin-bottom: 5px;
+        letter-spacing: 0px;
+    }
 }

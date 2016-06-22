@@ -29,7 +29,10 @@ header {
         }
         }
 
-         #NavBarMenu li a {
+         #NavBarMenu {
+           padding-left: 11%;
+
+         li a {
                font-size: 12px;
                text-transform: uppercase;
                color: #000;
@@ -40,6 +43,8 @@ header {
              color: #985e5b;
            }
          }
+         }
+
      ul.dropdown-menu {
        border: none;
        border-radius: 0px;
@@ -96,7 +101,7 @@ header {
 
 .TitleBox {
   position: absolute;
-  right: 12%;
+  right: 15%;
   top: 83%;
    h1.TitleMain {
      margin-bottom: 5px;

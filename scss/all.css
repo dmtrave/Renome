@@ -16,14 +16,16 @@ header .row .RenomeNavBar {
     font-family: "Pacifico";
     text-decoration: none;
     color: #000; }
-header .row #NavBarMenu li a {
-  font-size: 12px;
-  text-transform: uppercase;
-  color: #000;
-  font-family: "MontserratBold";
-  text-decoration: none; }
-  header .row #NavBarMenu li a:hover {
-    color: #985e5b; }
+header .row #NavBarMenu {
+  padding-left: 11%; }
+  header .row #NavBarMenu li a {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000;
+    font-family: "MontserratBold";
+    text-decoration: none; }
+    header .row #NavBarMenu li a:hover {
+      color: #985e5b; }
 header .row ul.dropdown-menu {
   border: none;
   border-radius: 0px;
@@ -65,7 +67,7 @@ header .row ul.dropdown-menu {
 
 .TitleBox {
   position: absolute;
-  right: 12%;
+  right: 15%;
   top: 83%; }
   .TitleBox h1.TitleMain {
     margin-bottom: 5px;
